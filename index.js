@@ -53,7 +53,7 @@ var questionset = [{
 // calling the function 
 for(i=0;i<questionset.length;i++){
   var currentQuestion = questionset[i]
-  console.log(play(currentQuestion.question,currentQuestion.answer))
+  play(currentQuestion.question,currentQuestion.answer)
 }
 
 // Storing a high score value
